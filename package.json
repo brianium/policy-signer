@@ -1,0 +1,21 @@
+{
+  "name": "policy-signer",
+  "version": "1.0.0",
+  "description": "command line utility for signing aws s3 policies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "s3"
+  ],
+  "bin": {
+    "signer": "./bin/signer.js"
+  },
+  "author": "Brian Scaturro <scaturrob@gmail.com> (http://github.com/brianium)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.1"
+  }
+}

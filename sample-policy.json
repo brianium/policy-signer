@@ -1,0 +1,10 @@
+{"expiration": "2020-01-01T00:00:00Z",
+  "conditions": [
+    {"bucket": "sample-bucket"},
+    ["starts-with", "$key", ""],
+    {"acl": "private"},
+    ["starts-with", "$Content-Type", ""],
+    ["content-length-range", 0, 20000000],
+    ["starts-with", "$filename", ""]
+  ]
+}
