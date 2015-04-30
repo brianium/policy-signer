@@ -5,12 +5,12 @@ Simple command line utility for signing AWS policy files.
 ##Usage
 
 ```
-  Usage: signer <path> <key>
+Usage: signer <path> <key>
 
-  Options:
+Options:
 
-    -h, --help     output usage information
-    -V, --version  output the version number
+  -h, --help     output usage information
+  -V, --version  output the version number
 ```
 
 ```
