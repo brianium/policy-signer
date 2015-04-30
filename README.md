@@ -24,6 +24,16 @@ QF+JVWEY5SvSJTKQjvIUU9quADw=
 
 ```
 
+##Installation
+
+```
+# locally
+$ npm install --save-dev policy-signer
+
+# globally
+$ npm install -g policy-signer
+```
+
 ##Motivation
 
 This is really just a simple utility to make signing a policy easy. It is not the most secure
