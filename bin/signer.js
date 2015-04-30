@@ -38,7 +38,7 @@ signer.signPolicy(policyPath, keyValue, function (err, encoded, signed) {
   console.log(encoded);
   console.log('');
 
-  console.log('Signed:');
+  console.log('Signature:');
   console.log(signed);
   console.log('');
 });
