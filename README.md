@@ -1,8 +1,8 @@
-#policy-signer
+# policy-signer
 
 Simple command line utility for signing AWS policy files.
 
-##Usage
+## Usage
 
 ```
 Usage: signer <path> <key>
@@ -24,7 +24,7 @@ QF+JVWEY5SvSJTKQjvIUU9quADw=
 
 ```
 
-##Installation
+## Installation
 
 ```
 # locally
@@ -34,7 +34,7 @@ $ npm install --save-dev policy-signer
 $ npm install -g policy-signer
 ```
 
-##Motivation
+## Motivation
 
 This is really just a simple utility to make signing a policy easy. It is not the most secure
 due to requiring the key on the command line, so it might make sense to clear your terminal history
